@@ -47,8 +47,8 @@ int main() {
             std::cout << "Invalid Input" << std::endl;
         } else {
             std::cout << "The volume of a cylinder with the radius of "
-                      << radius << " mm and the height of " << height << " mm is "
-                      << volume << " mm³.";
+                    << radius << "mm and the height of " << height << "mm is "
+                    << volume << "mm³.";
         }
     } catch (std::invalid_argument) {
         std::cout << "Invalid Input." << std::endl;
